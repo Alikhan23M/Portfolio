@@ -1,0 +1,404 @@
+body{
+    background-color: rgb(0, 0, 0.5);;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* nave bar */
+
+nav{
+    color: white;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: green;
+}
+nav .logo{
+    
+    position: absolute;
+}
+.logo h1{
+   font-size: 2.4rem;
+   margin-top: 0rem;
+   cursor: pointer;
+}
+.logo h1 span{
+    color: orange;
+    font-size: 3rem;
+}
+nav .nave_links {
+    display: flex;
+    margin-left: 55rem;
+}
+.nave_links ul li{
+    list-style: none;
+}
+.nave_links a {
+    text-decoration: none;
+    margin-left: 1.9rem;
+    color: white;
+    font-size: 1.2rem;
+    transition: 0.2s ease
+}
+.nave_links a:hover{
+    color: orange;
+}
+/* Home */
+.intro{
+    
+    display: flex;
+}
+
+.intro .name{
+    color: white;
+    margin-top: 15rem;
+    margin-left: 10rem;
+    font-size: 2.3rem;
+   
+}
+.intro .name #hi span{
+    color: orange;
+}
+
+ .intro .img1 img{
+    margin-left: 20rem;
+    position: absolute;
+    justify-content: right;
+    cursor: pointer;
+    margin-top: 2.8rem;
+}
+
+
+
+/* Skills */
+
+.sk h1{
+    justify-content: center;
+    color: white;
+    color: orange;
+    font-size: 3rem;
+    margin-left: 35rem;
+    margin-top: 12rem;
+    padding-top: 3rem;
+   
+}
+.skil{
+    display: flex;
+    text-align: center;
+    margin-left: 1.4rem;
+   
+}
+.skil .web{
+    background-color: rgb(13, 23, 60);
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 5rem;
+    transition: 1s ease;
+    cursor: pointer;
+    border-style: double;
+    border-color: white;
+}
+.skil .web:hover{
+    background-color: orangered;
+    
+}
+
+.skil .web h3{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-top:0rem;
+    color: orange;
+    
+}
+
+.skil .web p{
+
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+
+}
+
+.skil .logo{
+    margin-left: 30rem;
+    background-color: rgb(13, 23, 60);
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 5rem;
+    transition: 1s ease;
+    cursor: pointer;
+    border-style: double;
+    border-color: white;
+}
+.skil .logo:hover{
+    background-color: orangered;
+}
+.skil .logo h3{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-top:0rem;
+    color: orange;
+}
+.skil .logo p{
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.skil .content{
+    margin-left: 60rem;
+    background-color: rgb(13, 23, 60);
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: 1s ease;
+    border-style: double;
+    border-color: white;
+}
+.skil .content:hover{
+    background-color: orangered;
+}
+.skil .content h3{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-top:0rem;
+    color: orange;
+}
+.skil .content p{
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+}
+
+
+.skil .SEO{
+    margin-left: 60rem;
+    background-color: rgb(13, 23, 60);
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: 1s ease;
+    margin-top: 25rem;
+    border-style: double;
+    border-color: white;
+}
+.skil .SEO:hover{
+    background-color: orangered;
+}
+.skil .SEO h3{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-top:0rem;
+    color: orange;
+}
+.skil .SEO p{
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.skil .Doc{
+    margin-left: 30rem;
+    background-color: rgb(13, 23, 60);
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 5rem;
+    transition: 1s ease;
+    cursor: pointer;
+    margin-top: 25rem;
+    border-style: double;
+    border-color: white;
+}
+.skil .Doc:hover{
+    background-color: orangered;
+}
+.skil .Doc h3{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-top:0rem;
+    color: orange;
+}
+.skil .Doc p{
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.skil .yt{
+    background-color: rgb(13, 23, 60);
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 5rem;
+    transition: 1s ease;
+    cursor: pointer;
+    margin-top: 25rem;
+    border-style: double;
+    border-color: white;
+}
+.skil .yt:hover{
+    background-color: orangered;
+    
+}
+
+.skil .yt h3{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-top:0rem;
+    color: orange;
+    
+}
+
+.skil .yt p{
+
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+
+}
+/* About Section */
+
+.about{
+    display: flex;
+}
+
+.abt h1{
+    padding-top: 3rem;
+    margin-top: 50rem;
+    text-align: center;
+    font-size: 3rem;
+    color: orange;
+    
+}
+.image{
+    margin-left: 3rem;
+    background-color: orange;
+    display: flex;
+    position: absolute;
+    border-radius: 5rem;
+    width: 25rem;
+    height: 30rem;
+    margin-top: 4rem;    
+    justify-content: center;
+    transition: 1s ease;
+    cursor: pointer;
+}
+.image:hover{
+    background-color: orangered;
+}
+.image img{
+    border-radius: 5rem;
+    margin-top: 2.3rem;
+    cursor: pointer;
+}
+
+.abtpa{
+    text-align: center;
+    margin-left: 30rem;
+    text-align: left;
+}
+.abtpa p{
+    color: white;
+    font-size: 2.4rem;
+  
+}
+.abtpa p span{
+    color: orangered;
+}
+
+/* Contact section */
+
+#Contact h1{
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 3rem;
+    color: orange;
+}
+#Contact p{
+    text-align: center;
+    font-size: 2.4rem;
+    color: white;
+    
+}
+
+.res ul {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+.res ul li{
+    list-style: none;
+}
+.res ul li a img{
+    border-radius: 50%;
+}
+
+
+/* Animations */
+
+
+
+
+/* 
+.name #hi{
+    overflow: hidden;
+    border-right: 0.1em solid orange;
+    white-space: nowrap;
+    margin: 0;
+    animation: typing 3s steps(40,end), blink-caret .75s step-end infinite;
+}
+@keyframes typing{
+    from{width: 0;} to {width: 100%;}
+}
+@keyframes blink-caret{
+    from, to {
+        border-color: transparent;
+    }50%{
+        border-color: orange;
+    }
+   
+}
+/* .name #hi:last-child{
+    border-right:none;
+} */
+/* 
+.name #count{
+    overflow: hidden;
+    border-right: 0.1em solid orange;
+    white-space: nowrap;
+    margin: 0;
+    animation: typing 3s steps(40,end), blink-caret .75s step-end infinite;
+}
+@keyframes typing{
+    from{width: 0;} to {width: 100%;}
+}
+@keyframes blink-caret{
+    from, to {
+        border-color: transparent;
+    }50%{
+        border-color: orange;
+    }
+
+    
+}
+
+/* .name #count:last-child{
+    border-right;:none;
+} */ 
